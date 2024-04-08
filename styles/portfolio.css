@@ -1,0 +1,108 @@
+#protifolio {
+    width: 100vw;
+
+  }  
+
+.protifolio-top h1{
+    padding-top: 20px;
+    margin-left: 15%;
+      
+  }
+
+.protifolio-top{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+  }
+
+
+.protifolio-top h3{
+    margin: 2%;
+    /* margin: 3%; */
+    /* margin-top: 2%; */
+    text-align: center;
+  }
+
+.protifolio-cards{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0% 10% 10% 10%;
+
+}
+
+.card-container{
+    margin: 5px;
+    width: 300px;
+    flex: auto;
+    border-radius: 15px;
+    box-shadow: 10px 5px 26px rgb(41, 41, 41);
+    overflow: hidden;
+    text-align: center;
+    /* flex: 25%; */
+    /* flex: 30%; */
+    
+}
+
+.image-container{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background: linear-gradient(rgb(30, 37, 32), rgba(6, 6, 6, 0.75)); 
+}
+
+.image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain; 
+transition: .5s ease-in-out;
+}
+
+.card-container h6{
+    color: rgb(136,136,136);
+}
+.card-container img:hover{
+    transform: scale(1.1) rotate(-5deg);
+   }
+
+
+   @media(max-width:765px){
+    .card-container{
+            flex: calc(100%/2)  
+     }
+    
+    
+    
+    }
+
+   
+/* 
+@media(max-width:991px){
+    .card-container{
+        flex: 25%;
+    }
+
+}
+
+@media(max-width:765px){
+    .card-container{
+        flex: 30%
+    }
+}
+
+
+
+@media(max-width:567px){
+    .card-container{
+        flex: 40%;
+    }
+
+    .card-container{
+        width: 200px;
+    }
+
+    .image-container{
+        height: 150px;
+    }
+} */

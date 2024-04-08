@@ -1,0 +1,40 @@
+#contact{
+    width: 100vw;
+    /* height: 100vh; */
+    
+}
+
+.contact-top h1{
+    padding-top: 20px;
+    margin-left: 15%;
+      
+  }
+  .contact-top{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+  }
+
+  .my-contact{
+    display: flex;
+   margin-top: 10%;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+  }
+
+  .contact-items-container{
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+   
+  }
+
+
+  .contact-items img{
+    margin-top: 20px;
+    width: 20%;
+    height: 20%;
+  }
